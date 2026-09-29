@@ -1,0 +1,140 @@
+/* Colores de la tienda */
+:root {
+  --terracota: #b5532d;
+  --oliva: #5f6f3a;
+  --crema: #f8f3ea;
+  --cafe: #3b2a20;
+}
+
+body {
+  background-color: var(--crema);
+  color: var(--cafe);
+}
+
+.aviso {
+  background-color: var(--oliva);
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e6dccb;
+}
+
+.navbar-brand {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: var(--terracota) !important;
+}
+
+.nav-link.active {
+  color: var(--terracota) !important;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.btn-buscar,
+.btn-comprar {
+  background-color: var(--terracota);
+  color: #fff;
+}
+
+.btn-buscar:hover,
+.btn-comprar:hover {
+  background-color: #96421f;
+  color: #fff;
+}
+
+.btn-carrito {
+  border: 1px solid var(--terracota);
+  color: var(--terracota);
+}
+
+/* Portada */
+.portada {
+  background-color: #efe2cf;
+}
+
+.portada h1 {
+  font-family: Georgia, serif;
+}
+
+/* Tarjetas de productos */
+.producto {
+  border: 1px solid #e6dccb;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.producto img {
+  border-radius: 6px 6px 0 0;
+}
+
+.precio {
+  color: var(--terracota);
+  font-weight: bold;
+}
+
+.btn-agregar {
+  border: 1px solid var(--oliva);
+  color: var(--oliva);
+}
+
+.btn-agregar:hover,
+.btn-agregar.agregado {
+  background-color: var(--oliva);
+  color: #fff;
+}
+
+/* Carrito */
+.caja-carrito {
+  background-color: #fff;
+  border: 1px solid #e6dccb;
+  border-radius: 6px;
+}
+
+@media (min-width: 992px) {
+  .caja-carrito {
+    position: sticky;
+    top: 80px;
+  }
+}
+
+.item-carrito img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Footer */
+.pie {
+  background-color: var(--cafe);
+  color: #e9dfd0;
+}
+
+.pie a {
+  color: #e9dfd0;
+}
+
+/* En celular los textos de las tarjetas más pequeños */
+@media (max-width: 576px) {
+  .producto h3 {
+    font-size: 0.9rem;
+  }
+}
+
+/* Botón de pagar deshabilitado cuando el carrito está vacío */
+.btn-comprar:disabled {
+  background-color: var(--terracota);
+  color: #fff;
+  opacity: 0.5;
+}
+
+/* En celular el carrito ya está dentro del panel, no necesita borde */
+@media (max-width: 991px) {
+  .caja-carrito {
+    border: none;
+  }
+}

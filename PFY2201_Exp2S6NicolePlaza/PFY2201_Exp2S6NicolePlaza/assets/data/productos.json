@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tetera enlozada 1,5 L",
+    "categoria": "cocina",
+    "precio": 18990,
+    "detalle": "Enlozado blanco con borde azul. Sirve para cocina a gas e inducción.",
+    "img": "assets/img/tetera.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Set 4 tazones de greda",
+    "categoria": "cocina",
+    "precio": 22990,
+    "detalle": "Hechos a mano en Pomaire.",
+    "img": "assets/img/tazones.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Panera de mimbre",
+    "categoria": "cocina",
+    "precio": 9990,
+    "detalle": "Tejida a mano, con paño de lino.",
+    "img": "assets/img/panera.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Sartén de fierro fundido 26 cm",
+    "categoria": "cocina",
+    "precio": 27990,
+    "detalle": "Sirve para horno y cocina.",
+    "img": "assets/img/sarten.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Lámpara colgante de ratán",
+    "categoria": "deco",
+    "precio": 34990,
+    "detalle": "Diámetro de 40 cm. No incluye ampolleta.",
+    "img": "assets/img/lampara.svg"
+  },
+  {
+    "id": 6,
+    "nombre": "Vela de soya eucalipto",
+    "categoria": "deco",
+    "precio": 7990,
+    "detalle": "Dura 30 horas aprox.",
+    "img": "assets/img/vela.svg"
+  },
+  {
+    "id": 7,
+    "nombre": "Reloj de arena de madera",
+    "categoria": "deco",
+    "precio": 12990,
+    "detalle": "Marca 15 minutos. Hecho de raulí.",
+    "img": "assets/img/reloj-arena.svg"
+  },
+  {
+    "id": 8,
+    "nombre": "Lámpara de velador luna",
+    "categoria": "deco",
+    "precio": 15990,
+    "detalle": "Luz cálida regulable, recargable por USB.",
+    "img": "assets/img/lampara-luna.svg"
+  },
+  {
+    "id": 9,
+    "nombre": "Macetero de greda N°20",
+    "categoria": "jardin",
+    "precio": 6990,
+    "detalle": "Con plato y orificio de drenaje.",
+    "img": "assets/img/macetero.svg"
+  },
+  {
+    "id": 10,
+    "nombre": "Pack 3 suculentas",
+    "categoria": "jardin",
+    "precio": 8990,
+    "detalle": "En maceta de 8 cm.",
+    "img": "assets/img/suculentas.svg"
+  },
+  {
+    "id": 11,
+    "nombre": "Regadera metálica 2 L",
+    "categoria": "jardin",
+    "precio": 11990,
+    "detalle": "De acero galvanizado.",
+    "img": "assets/img/regadera.svg"
+  },
+  {
+    "id": 12,
+    "nombre": "Tijera de podar",
+    "categoria": "jardin",
+    "precio": 9490,
+    "detalle": "Hoja de acero y mango antideslizante.",
+    "img": "assets/img/tijera.svg"
+  }
+]
